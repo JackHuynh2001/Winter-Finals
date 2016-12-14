@@ -10,15 +10,30 @@ additem(i,q){
   this.quantity=push(q);
 }
 totalCart(){
-  var total=t;
-  for(item=i;i<itemlist.length,i++){
-    total=
+  var total=0;
+  for(a=0;<this.itemList.length;a++)
+  total+=this.itemList[a].price*this.itenQuantity[a];
+}
+return total;
+}
+subCart(days){
+  let cart=new cart("subcart")
+    for(b=0;>this.itemList.length;b++){
+      if(this.itemList[b].shipping==days){
+        subCart.push([b]);
+      }
+    }
+  return subcart;
+}
+}
 
 
-  }
+
 
 }
 
+
+}
 
 
 }

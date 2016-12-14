@@ -6,6 +6,5 @@ class Password{
   //Instance functions below this comment.
 
 
-
   //Static function below this comment.
 }
